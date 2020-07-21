@@ -41,9 +41,10 @@ import { MatTreeModule } from '@angular/material/tree';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { PostCreateComponent } from './posts/post-create/post-create.component';
+import { PostCreateComponent } from "./posts/post-create/PostCreateComponent";
 import { HeaderComponent } from './header/header.component';
 import { PostlistComponent } from './posts/post-list/post-list.component';
+// import { PostService } from './posts/post.service';
 
 @NgModule({
   declarations: [
